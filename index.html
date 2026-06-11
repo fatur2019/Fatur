@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta ini wajib biar gak kekecilan di HP -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Portfolio Fatur</title>
+    <style>
+        /* Reset & Full Screen */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            background: #0f0c29; 
+            color: white; 
+            font-family: 'Segoe UI', sans-serif; 
+            min-height: 100vh; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            padding: 10px;
+        }
+
+        /* Card Full width untuk mobile */
+        .card { 
+            background: rgba(255, 255, 255, 0.08); 
+            backdrop-filter: blur(15px); 
+            padding: 25px; 
+            border-radius: 20px; 
+            text-align: center; 
+            border: 1px solid rgba(255, 255, 255, 0.1); 
+            width: 100%; 
+            max-width: 500px; /* Biar gak terlalu lebar di desktop */
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+
+        .profile-pic { width: 100px; height: 100px; border-radius: 50%; border: 3px solid #00d2ff; margin-bottom: 10px; }
+        
+        .social-box { display: flex; gap: 10px; margin: 20px 0; }
+        .social-btn { flex: 1; background: #00d2ff; padding: 12px; border-radius: 8px; text-decoration: none; color: #000; font-weight: bold; font-size: 14px; }
+
+        .sertifikat-preview { width: 100%; border-radius: 8px; border: 2px dashed #00d2ff; margin-top: 15px; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <img src="l.jpg" class="profile-pic" alt="Fatur">
+    <h2>Fatur Rohman</h2>
+    <p>Web Developer & Tech Enthusiast</p>
+    
+    <div class="social-box">
+        <a href="https://www.tiktok.com/@konyoladu?_r=1&_d=f273h59ga0li66&sec_uid=MS4wLjABAAAAJ333piniG-9QUXA5bMAQx6nNVHDC7FRXl1umFzxJuE6twW30pIbYeGsW17hek8qN&share_author_id=7282622187218912261&sharer_language=id&source=h5_t&u_code=ea774051ik10me&timestamp=1781192686&user_id=7282622187218912261&sec_user_id=MS4wLjABAAAAJ333piniG-9QUXA5bMAQx6nNVHDC7FRXl1umFzxJuE6twW30pIbYeGsW17hek8qN&item_author_type=1&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7649850767609120513&share_link_id=a52250f2-2d10-451c-aec7-f9802aa70be0&share_app_id=1180&ugbiz_name=ACCOUNT&ug_btm=b8727%2CEnlargeAvatarActivity&social_share_type=5&share_enter_from=personal_homepage&item_author_type=1&enable_checksum=1" class="social-btn">TikTok</a>
+        <a href="https://www.instagram.com/fatur20192010?igsh=cDJ5ZXhtd3cxemd0" class="social-btn">IG</a>
+        <a href="https://youtube.com/@lo-gabut?si=I8iFj6YrhR-547Jw" class="social-btn">YT</a>
+    </div>
+
+    <p style="font-size: 13px;">Sertifikat Penghargaan:</p>
+    <img src="s.jpg" class="sertifikat-preview">
+</div>
+
+</body>
+</html>
